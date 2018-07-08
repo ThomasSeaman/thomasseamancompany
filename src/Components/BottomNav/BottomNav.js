@@ -4,10 +4,7 @@ import { Footer } from 'react-materialize';
 
 const BottomNav = () => (
     <div>
-        <Footer copyrights="&copy 3015 Copyright Text"
-            moreLinks={
-                <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-            }
+        <Footer copyrights="@ Thomas Seaman Company"
             links={
                 <ul>
                     <li><a className="grey-text text-lighten-3 OtherWebsite">Other Websites</a></li>

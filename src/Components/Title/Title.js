@@ -2,8 +2,8 @@ import React from 'react';
 import './Title.css';
 
 const Title = () => (
-    <div>
-        <p>Thomas Seaman Company</p>
+    <div className="Title">
+        <h1>Thomas Seaman Company</h1>
     </div>
 );
 
