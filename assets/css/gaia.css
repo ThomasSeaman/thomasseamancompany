@@ -1229,10 +1229,14 @@ a.carousel-control span.fa {
 }
 .section .title-area .description {
   font-size: 16px;
-  color: #777777;
+  color:black;
 }
 .section [class*="col-"] .title-area {
   padding: 0;
+}
+
+.homepagebuttons{
+  color:black
 }
 .section .text-area {
   padding: 4.375em 0;
