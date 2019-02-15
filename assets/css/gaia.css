@@ -1512,8 +1512,7 @@ a.carousel-control span.fa {
 }
 
 .section-we-do-presentation {
-  padding-top: 100px;
-  padding-bottom: 25px;
+  padding: 100px 0;
 }
 
 .section-info-presentation {
@@ -3567,16 +3566,9 @@ body.noscroll {
 .media {
   border-bottom: 1px solid #E3E3E3;
   padding: 30px 0;
-  margin:185px;
-}
-
-.dropdownparagraphs{
-  border-bottom: 1px solid #E3E3E3;
-  padding: 30px;
 }
 .media:last-child {
   border-bottom: 0;
-  margin-bottom:20px;
 }
 .media .avatar {
   margin: 0 auto;
@@ -4913,8 +4905,6 @@ body {
     padding: 0;
   }
 }
-
-.media-body{
-  text-align: justify;
-
+#securitiesfraud{
+  text-align: justify
 }
