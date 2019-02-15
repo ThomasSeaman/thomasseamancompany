@@ -291,29 +291,50 @@ var BrowserDetect = {
 
 var better_browser = '<div class="container"><div class="better-browser row"><div class="col-md-2"></div><div class="col-md-8"><h3>We are sorry but it looks like your Browser doesn\'t support our website Features. In order to get the full experience please download a new version of your favourite browser.</h3></div><div class="col-md-2"></div><br><div class="col-md-4"><a href="https://www.mozilla.org/ro/firefox/new/" class="btn btn-warning">Mozilla</a><br></div><div class="col-md-4"><a href="https://www.google.com/chrome/browser/desktop/index.html" class="btn ">Chrome</a><br></div><div class="col-md-4"><a href="http://windows.microsoft.com/en-us/internet-explorer/ie-11-worldwide-languages" class="btn">Internet Explorer</a><br></div><br><br><h4>Thank you!</h4></div></div>';
 
-function myFunctionSecurities() {
-    var x = document.getElementById("securitiesfraud");
+function myFunctionCases() {
+    var x = document.getElementById("cases");
     if (x.style.display === "none") {
       x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+function myFunctionSecurities() {
+    var x = document.getElementById("securitiesfraud");
+    var y = document.getElementById("consumerfraud");
+    var z = document.getElementById("otherfraud");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+      z.style.display = "none";
     } else {
       x.style.display = "none";
     }
   }
 
   function myFunctionConsumer() {
-    var x = document.getElementById("consumerfraud");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
+    var x = document.getElementById("securitiesfraud");
+    var y = document.getElementById("consumerfraud");
+    var z = document.getElementById("otherfraud");
+    if (y.style.display === "none") {
+      y.style.display = "block";
       x.style.display = "none";
+      z.style.display = "none";
+    } else {
+      y.style.display = "none";
     }
   }
 
   function myFunctionOther() {
-    var x = document.getElementById("otherfraud");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
+    var x = document.getElementById("securitiesfraud");
+    var y = document.getElementById("consumerfraud");
+    var z = document.getElementById("otherfraud");
+    if (z.style.display === "none") {
+      z.style.display = "block";
       x.style.display = "none";
+      y.style.display = "none";
+    } else {
+      z.style.display = "none";
     }
   }
