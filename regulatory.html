@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/businessethicsfavicon.jpg">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Regulatory</title>
+    <title>Thomas Seaman Company</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/gaia.css" rel="stylesheet" />
@@ -80,7 +80,7 @@
             </div>
             <div class="container">
                 <div class="content">
-                    <p class="title-modern">Regulatory Actions</p>
+                    <p class="title-modern-regulatory">Regulatory Actions</p>
                     <div class="separator">♦</div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                             <i class="pe-7s-vector text-danger"></i>
                         </div>
                         <a onclick="myFunctionSecurities()">
-                            <h3 class="securityfraudbuttons">Securities Fraud</h3>
+                            <h3 id="securityfraudbuttons">Securities Fraud</h3>
                         </a>
                         <!-- <p class="description">List of the top employees, why you started the company and the vision.</p> -->
                     </div>
@@ -111,7 +111,7 @@
                             <i class="pe-7s-keypad text-danger"></i>
                         </div>
                         <a onclick="myFunctionConsumer()">
-                            <h3 class="consumerfraudbuttons">Consumer Fraud</h3>
+                            <h3 id="consumerfraudbuttons">Consumer Fraud</h3>
                         </a>
 
                         <!-- <p class="description">We can have this link to the different category pages you had in the past.</p> -->
@@ -123,7 +123,7 @@
                             <i class="pe-7s-albums text-danger"></i>
                         </div>
                         <a onclick="myFunctionOther()">
-                            <h3 class="otherfraudbuttons">Other</h3>
+                            <h3 id="otherfraudbuttons">Other</h3>
                         </a>
                         <!-- <p class="description">This can link to the old page and we will match the design theme of this page.</p> -->
                     </div>
@@ -132,48 +132,118 @@
 
             <div class="row">
 
-                    <div class="col-md-12 col-sm-12">
-                        <div id="securitiesfraud" style="display:none;">
-                                <div class="box">
-                                        
-                                    <h3 class="title-description">Securities and Exchange Commission vs. PDC Capital, et al</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Receiver for scheme involving investors in the USCIS EB-5 immigrant investor program that collectively invested $75,000,000. Management and disposition of senior living real estate projects. Defendants mis-appropriated EB-5 investors’ funds. Distressed and over-encumbered assets. Forensic accounting. Third party litigation, including fraudulent transfers and malpractice litigation.</p>
-            
-                                    <h3 class="title-description">Securities and Exchange Commission vs. USFIA, Inc.</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Serve as Receiver for a Defendant engaged in a fraud based on a purported crypto-currency based on the value of amber, a material of little to no intrinsic value.  Conducted forensic accounting.  Defendants raised over $200,000,000.  Recoveries to day exceed $50,000,000.   Final Judgment obtained against defendants.</p>
-            
-                                    <h3 class="title-description">Securities and Exchange Commission vs. Total Wealth Management, et al</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Receiver for a registered investment adviser involving fraud and breach of fiduciary duty  investing in unregistered investment funds.</p>
-                                        
-                                    <h3 class="title-description">Securities and Exchange Commission vs. Small Business Capital, et al</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Receiver for a lender licensed by the Small Business Administration (“SBA”) to make and service SBA guaranteed loans.  The Receiver managed and serviced a loan portfolio of SBA 7-A and 504 loans, and non-SBA loans.  The Receiver conducted a forensic accounting.  The underlying litigation was contested by the defendant, who is currently incarcerated.  The Receiver monetized all problem loans, sold the SBA 504 program loans for a 110% of par, and sold 7-A loans for 90% of par.   Receiver distributed $35 million to investor/victims, or 86% of their losses.</p>
-                                    
-                                    <h3 class="title-description">Securities and Exchange Commission vs. Medical Capital Holdings, Inc.</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver in a securities fraud enforcement action against a lender purportedly investing in medical accounts receivable and other lending activities.  In excess of $1.7 billion was raised from note holder/victims who had unpaid principal in excess of $1 billion.  The case was the largest receivership in the Ninth Circuit initiated in 2009.  The Receiver recovered over $200,000,000 and together with actions for damages supported by the Receiver, over $400,000,000 was returned to investors. The case involved a multiplicity of duties including asset sales, debt collection, debt restructuring, operating businesses, forensic accounting, supporting criminal prosecutions, prosecuting actions for recovery of ill-gotten gains, prosecuting actions for breach of fiduciary duty, prosecuting actions for legal malpractice, among others.   The Receiver conducted a forensic accounting which analyzed over $20 billion in transactions involving 258 bank accounts over a 69 month period and concluded the company operated a Ponzi-like scheme.</p> 
-            
-                                    <h3 class="title-description">Securities and Exchange Commission/Commodity Futures Trading Commission  vs. Safevest</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver in securities fraud enforcement action involving a Ponzi-scheme purportedly using futures trading. </p> 
-            
-                                    <h3 class="title-description">Securities and Exchange Commission vs. Carolina Development</h3>
-                                    <p class="text-description text-gray paragraphbreaker">Offering fraud case for a purported real estate development company.  Significant mis-representation of assets.   Uncooperative defendants.  Volatile investor base.  Liquidated land holdings in excess of $40 million.  Several substantial interesting legal issues.  Over thirty disgorgement actions filed.  Filed suit against four separate attorneys for malpractice or other breaches of fiduciary duty.  SEC won Motion for Summary Judgment and obtained judgment for $29 million against defendant largely on the basis of receiver’s investigation and forensic accounting.  Assisted with development of Plan of Distribution and expect to distribute approximately $10 million to investor victims.  Supported governmental agencies in criminal actions, defendants indicted and incarcerated.</p> 
-            
-                                    <h3 class="title-description">Securities and Exchange Commission vs. Nathanson et al</h3>
-                                    <p class="text-description text-gray">$80 million securities fraud case with 2,600 investor victims.  Ponzi scheme combined with a legitimate golf club manufacturer.  Performed forensic accounting identifying recipients of ill gotten gains; highly complex accounting, 20 bank accounts at 6 banks for 15 corporate entities, extensive use of kiting, etc.  Successful prosecution of professionals.  Auction.  Seized real property and personal property assets.  Criminal referral, defendant indicted and incarcerated.</p> 
-                                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div id="securitiesfraud" style="display:none;">
+                        <div class="box">
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. PDC Capital, et al</h3>
+                            <p class="text-description text-gray paragraphbreaker">Receiver for scheme involving investors in the USCIS EB-5 immigrant investor program that collectively
+                                invested $75,000,000. Management and disposition of senior living real estate projects. Defendants
+                                mis-appropriated EB-5 investors’ funds. Distressed and over-encumbered assets. Forensic accounting.
+                                Third party litigation, including fraudulent transfers and malpractice litigation.</p>
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. USFIA, Inc.</h3>
+                            <p class="text-description text-gray paragraphbreaker">Serve as Receiver for a Defendant engaged in a fraud based on a purported crypto-currency based
+                                on the value of amber, a material of little to no intrinsic value. Conducted forensic accounting.
+                                Defendants raised over $200,000,000. Recoveries to day exceed $50,000,000. Final Judgment
+                                obtained against defendants.</p>
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. Total Wealth Management, et al</h3>
+                            <p class="text-description text-gray paragraphbreaker">Receiver for a registered investment adviser involving fraud and breach of fiduciary duty investing
+                                in unregistered investment funds.</p>
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. Small Business Capital, et al</h3>
+                            <p class="text-description text-gray paragraphbreaker">Receiver for a lender licensed by the Small Business Administration (“SBA”) to make and service
+                                SBA guaranteed loans. The Receiver managed and serviced a loan portfolio of SBA 7-A and 504
+                                loans, and non-SBA loans. The Receiver conducted a forensic accounting. The underlying litigation
+                                was contested by the defendant, who is currently incarcerated. The Receiver monetized all
+                                problem loans, sold the SBA 504 program loans for a 110% of par, and sold 7-A loans for 90%
+                                of par. Receiver distributed $35 million to investor/victims, or 86% of their losses.</p>
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. Medical Capital Holdings, Inc.</h3>
+                            <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver in a securities fraud enforcement action against a lender purportedly
+                                investing in medical accounts receivable and other lending activities. In excess of $1.7
+                                billion was raised from note holder/victims who had unpaid principal in excess of $1 billion.
+                                The case was the largest receivership in the Ninth Circuit initiated in 2009. The Receiver
+                                recovered over $200,000,000 and together with actions for damages supported by the Receiver,
+                                over $400,000,000 was returned to investors. The case involved a multiplicity of duties including
+                                asset sales, debt collection, debt restructuring, operating businesses, forensic accounting,
+                                supporting criminal prosecutions, prosecuting actions for recovery of ill-gotten gains, prosecuting
+                                actions for breach of fiduciary duty, prosecuting actions for legal malpractice, among others.
+                                The Receiver conducted a forensic accounting which analyzed over $20 billion in transactions
+                                involving 258 bank accounts over a 69 month period and concluded the company operated a Ponzi-like
+                                scheme.
+                            </p>
+
+                            <h3 class="title-description">Securities and Exchange Commission/Commodity Futures Trading Commission vs. Safevest</h3>
+                            <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver in securities fraud enforcement action involving a Ponzi-scheme purportedly
+                                using futures trading. </p>
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. Carolina Development</h3>
+                            <p class="text-description text-gray paragraphbreaker">Offering fraud case for a purported real estate development company. Significant mis-representation
+                                of assets. Uncooperative defendants. Volatile investor base. Liquidated land holdings in
+                                excess of $40 million. Several substantial interesting legal issues. Over thirty disgorgement
+                                actions filed. Filed suit against four separate attorneys for malpractice or other breaches
+                                of fiduciary duty. SEC won Motion for Summary Judgment and obtained judgment for $29 million
+                                against defendant largely on the basis of receiver’s investigation and forensic accounting.
+                                Assisted with development of Plan of Distribution and expect to distribute approximately
+                                $10 million to investor victims. Supported governmental agencies in criminal actions, defendants
+                                indicted and incarcerated.</p>
+
+                            <h3 class="title-description">Securities and Exchange Commission vs. Nathanson et al</h3>
+                            <p class="text-description text-gray">$80 million securities fraud case with 2,600 investor victims. Ponzi scheme combined with a legitimate
+                                golf club manufacturer. Performed forensic accounting identifying recipients of ill gotten
+                                gains; highly complex accounting, 20 bank accounts at 6 banks for 15 corporate entities,
+                                extensive use of kiting, etc. Successful prosecution of professionals. Auction. Seized real
+                                property and personal property assets. Criminal referral, defendant indicted and incarcerated.</p>
                         </div>
-            
-        </div>
-    </div>
+                    </div>
 
-    
+                    <div id="consumerfraud" style="display:none;">
+                        <div class="box">
+                            <h3 class="title-description">Federal Trade Commission vs. Digital Altitude</h3>
+                            <p class="text-description text-gray paragraphbreaker">Receiver for an online company that purports to sell a sales training program enabling customers
+                                to create online businesses and earn $100,000 in 90 days. Only one consumer our of 185,000
+                                made $100,000 and it took 11 months. Aggrieved consumers spent $60,000,000 and received commissions
+                                of $6,000,000. Called as witness at Preliminary Injunction hearing by Defendants. The Court
+                                granted a Preliminary Injunction and confirmed Permanent Receiver.</p>
+
+                            <h3 class="title-description">Federal Trade Commission vs. Dayton Productions</h3>
+                            <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver for a company committing consumer fraud in a sweepstakes scheme. Defendant
+                                sentenced to 87 months.</p>
+
+                            <h3 class="title-description">Federal Trade Commission vs. American Credit Crunchers, LLC et al</h3>
+                            <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver in an alleged consumer fraud case wherein the company purported to collect
+                                payday loan debts. The receiver’s primary function in this matter was to cease all fraudulent
+                                and activities, wind down the affairs of the company, mitigate losses and recover funds for
+                                restitution.
+                            </p>
+
+                            <h3 class="title-description">Federal Trade Commission vs. American Tax Relief, et al</h3>
+                            <p class="text-description text-gray paragraphbreaker">Federal Equity Receiver in an alleged consumer fraud case wherein the company purported to provide
+                                tax relief services to individual consumers. The receiver’s primary function in this matter
+                                was to cease all fraudulent and activities, wind down the affairs of the company, mitigate
+                                losses and recover funds for restitution if and when the FTC litigation is successful.</p>
+
+                        </div>
+                    </div>
+
+                    <div id="otherfraud" style="display:none;">
+                        <h3 class="title-description">People of State of California vs. Theodore Swain</h3>
+                        <p class="text-description text-gray paragraphbreaker">Receiver appointed to identify, seize, and liquidate assets for the benefit of investor-victims and
+                            distribute proceeds.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
-                <div id="consumerfraud" style="display:none;">
-                    <p>consumer</p>
-                </div>
-                <div id="otherfraud" style="display:none;">
-                    <p>other</p>
-                </div>
+
+        <div id="otherfraud" style="display:none;">
+            <p>other</p>
+        </div>
     </div>
     </div>
 

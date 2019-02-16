@@ -293,48 +293,72 @@ var better_browser = '<div class="container"><div class="better-browser row"><di
 
 function myFunctionCases() {
     var x = document.getElementById("cases");
+    var h = document.getElementById("homepagebuttons");
     if (x.style.display === "none") {
       x.style.display = "block";
+      h.style.textDecoration = "underline";
     } else {
       x.style.display = "none";
+      h.style.textDecoration = "none";
     }
   }
 
 function myFunctionSecurities() {
+    var c = document.getElementById("consumerfraudbuttons") 
+    var o = document.getElementById("otherfraudbuttons")
+    var s = document.getElementById("securityfraudbuttons")
     var x = document.getElementById("securitiesfraud");
     var y = document.getElementById("consumerfraud");
     var z = document.getElementById("otherfraud");
     if (x.style.display === "none") {
       x.style.display = "block";
+      s.style.textDecoration = "underline";
       y.style.display = "none";
       z.style.display = "none";
+      o.style.textDecoration = "none";
+      c.style.textDecoration = "none";
     } else {
       x.style.display = "none";
+      s.style.textDecoration = "none";
     }
   }
 
   function myFunctionConsumer() {
+    var c = document.getElementById("consumerfraudbuttons") 
+    var o = document.getElementById("otherfraudbuttons")
+    var s = document.getElementById("securityfraudbuttons") 
     var x = document.getElementById("securitiesfraud");
     var y = document.getElementById("consumerfraud");
     var z = document.getElementById("otherfraud");
     if (y.style.display === "none") {
       y.style.display = "block";
+      c.style.textDecoration = "underline";
       x.style.display = "none";
       z.style.display = "none";
+      o.style.textDecoration = "none";
+      s.style.textDecoration = "none";
     } else {
       y.style.display = "none";
+      c.style.textDecoration = "none";
     }
   }
 
   function myFunctionOther() {
+    var c = document.getElementById("consumerfraudbuttons") 
+    var o = document.getElementById("otherfraudbuttons")
+    var s = document.getElementById("securityfraudbuttons")
     var x = document.getElementById("securitiesfraud");
     var y = document.getElementById("consumerfraud");
     var z = document.getElementById("otherfraud");
     if (z.style.display === "none") {
       z.style.display = "block";
+      o.style.textDecoration = "underline";
       x.style.display = "none";
       y.style.display = "none";
+      c.style.textDecoration = "none";
+      s.style.textDecoration = "none";
     } else {
       z.style.display = "none";
+      o.style.textDecoration = "none";
     }
   }

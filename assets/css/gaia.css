@@ -155,6 +155,10 @@ a:hover {
   font-weight: 200;
 }
 
+.title-modern-regulatory{
+  font-size: 3.6em;
+}
+
 .text-gray {
   color: #777777;
 }
@@ -1235,7 +1239,7 @@ a.carousel-control span.fa {
   padding: 0;
 }
 
-.homepagebuttons{
+#homepagebuttons{
   color:black
 }
 .section .text-area {
