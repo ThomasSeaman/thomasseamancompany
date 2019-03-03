@@ -97,6 +97,7 @@ h3, .h3 {
   line-height: 1.05em;
   margin-top: 15px;
   margin-bottom: 15px;
+  color:black;
 }
 
 h4, .h4 {
@@ -180,7 +181,11 @@ a:hover {
 }
 
 .text-danger {
-  color: #e78b90 !important;
+  color: cadetblue !important;
+}
+
+#titlename{
+  color:white;
 }
 
 .text-gold,
@@ -1240,7 +1245,7 @@ a.carousel-control span.fa {
 }
 
 #homepagebuttons{
-  color:black
+  color:black;
 }
 .section .text-area {
   padding: 4.375em 0;
