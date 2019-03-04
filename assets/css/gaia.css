@@ -192,6 +192,15 @@ a:hover {
   color:black;
 }
 
+#casesbutton{
+  cursor:pointer;
+}
+
+#websitelink{
+  font-weight: bold;
+  font-size:18px;
+}
+
 .text-gold,
 .title-gold {
   color: #c5a47e;
@@ -1250,6 +1259,7 @@ a.carousel-control span.fa {
 
 #homepagebuttons{
   color:black;
+  cursor: pointer;
 }
 .section .text-area {
   padding: 4.375em 0;
