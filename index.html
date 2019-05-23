@@ -19,16 +19,16 @@
     <link href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120633508-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-120633508-3');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120633508-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120633508-3');
+    </script>
 
 </head>
 
@@ -44,9 +44,29 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="index.html" class="navbar-brand">
-                    Thomas Seaman Company
-                </a>
+
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                        <li class="dropdown">
+                            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Thomas Seaman Company
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-danger">
+                                <li>
+                                    <a href="about.html">About Our Company</a>
+                                </li>
+                                <li>
+                                    <a href="cases.html">Cases</a>
+                                </li>
+                                <li>
+                                    <a href="receivershipwebsites.html">Receivership Websites</a>
+                                </li>
+                                <li>
+                                    <a href="companydirectory.html">Company Directory</a>
+                                </li>
+    
+                        </li>
+                        </ul>
+
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
@@ -55,20 +75,21 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-danger">
-                                <li>
-                                    <a href="https://www.pacer.gov/" target="_blank">PACER.gov</a>
-                                </li>
-                                <li>
-                                    <a href="http://nafer.org/" target="_blank">NAFER.org</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.receivers.org/" target="_blank">RECEIVERS.org</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.courts.ca.gov/forms.htm?filter=RC" target="_blank">California Court Forms</a>
-                                </li>
-                            </ul>
+                            <li>
+                                <a href="https://www.pacer.gov/" target="_blank">PACER.gov</a>
+                            </li>
+                            <li>
+                                <a href="http://nafer.org/" target="_blank">NAFER.org</a>
+                            </li>
+                            <li>
+                                <a href="https://www.receivers.org/" target="_blank">RECEIVERS.org</a>
+                            </li>
+                            <li>
+                                <a href="https://www.courts.ca.gov/forms.htm?filter=RC" target="_blank">California Court Forms</a>
+                            </li>
+
                     </li>
+                    </ul>
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-share-alt"></i> Contact
@@ -121,10 +142,11 @@
                     <!-- <h2>Our Services</h2>
                             <div class="separator separator-danger">✻</div> -->
                     <!-- LEFT JUSTIFY THIS PARAGRAPH -->
-                    <p class="description">Thomas Seaman Company brings practical business expertise to complex litigation requiring the services
-                        of a Court-appointed neutral third party. These matters generally fall into three categories, insolvency,
-                        disputes, or regulatory matters. The function of a receiver is specialized and requires someone who understands being a fiduciary, is adept at operating in a judicial
-                        environment, but who also has the business skills to manage assets. </p>
+                    <p class="description">When complex litigation requires the services of a court-appointed neutral third party, no one brings
+                        more practical business expertise to the table than Thomas Seaman Company. Whether the situation
+                        involves insolvency, disputes, or regulatory matters, Mr. Seaman is experienced at handling the specialized
+                        function of receiver. Importantly, he understands the role of a fiduciary; he’s adept at operating
+                        in a judicial environment, and has the business skills to manage assets.</p>
                 </div>
             </div>
             <div class="row">
@@ -138,50 +160,30 @@
                         </div>
                     </a>
                 </div>
-
                 <div class="col-md-3 col-sm-3">
-                    <a id="casesbutton" onclick="myFunctionCases()">
-                    <div class="info-icon">
-                        <div class="icon">
-                            <i class="pe-7s-hammer text-danger"></i>
+                    <a href="cases.html">
+                        <div class="info-icon">
+                            <div class="icon">
+                                <i class="pe-7s-hammer text-danger"></i>
+                            </div>
+                            <h3 class="homepagebuttons">Cases</h3>
                         </div>
-                            <h3 id="homepagebuttons">Cases</h3>
-                        </a>
-
-                        <div id="cases" style="display:none;">
-                            <a href="regulatory.html">
-                                <p>Regulatory</p>
-                                <a href="operating.html">
-                                    <p>Operating Companies</p>
-                                    <a href="rentsandprofits.html">
-                                        <p>Rents & Profits</p>
-                                        <a href="assistedliving.html">
-                                            <p>Healthcare & Senior Living</p>
-                                            <a href="bankrupctcy.html">
-                                                <p>Bankrupctcy</p>
-                                                <a href="construction.html">
-                                                    <p>Construction</p>
-                                                    <a href="othermatters.html">
-                                                        <p>Other Matters</p>
-                                                    </a>
-
-
-                        </div>
-
-                        <!-- <p class="description">We can have this link to the different category pages you had in the past.</p> -->
-                    </div>
+                    </a>
                 </div>
 
+
+
+
                 <div class="col-md-3 col-sm-3">
-                        <a href="receivershipwebsites.html">
-                            <div class="info-icon">
-                                <div class="icon">
-                                    <i class="pe-7s-display2 text-danger"></i>
-                                </div>
-                                <h3>Receivership Websites</h3>
+                    <a href="receivershipwebsites.html">
+                        <div class="info-icon">
+                            <div class="icon">
+                                <i class="pe-7s-display2 text-danger"></i>
                             </div>
-                        </a>
-                    </div>
+                            <h3>Receivership Websites</h3>
+                        </div>
+                    </a>
+                </div>
 
 
                 <div class="col-md-3 col-sm-3">
@@ -195,9 +197,9 @@
                     </a>
                 </div>
 
-
             </div>
         </div>
+    </div>
     </div>
 
 
